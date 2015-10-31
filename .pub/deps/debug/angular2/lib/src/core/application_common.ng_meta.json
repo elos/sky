@@ -1,0 +1,287 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.application_common",
+    "3": [
+      {
+        "1": "package:angular2/src/core/forms.dart",
+        "2": [
+          "FORM_PROVIDERS"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/forms.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "provide",
+          "Provider",
+          "Injector",
+          "OpaqueToken"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "NumberWrapper",
+          "Type",
+          "isBlank",
+          "isPresent",
+          "assertionsEnabled",
+          "print",
+          "stringify"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/dom/browser_adapter.dart",
+        "2": [
+          "BrowserDomAdapter"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/dom/browser_adapter.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/testability/browser_testability.dart",
+        "2": [
+          "BrowserGetTestability"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/testability/browser_testability.ng_deps.dart",
+        "4": "i4",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.ng_deps.dart",
+        "4": "i5",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.dart",
+        "2": [
+          "Future",
+          "PromiseWrapper",
+          "PromiseCompleter"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.ng_deps.dart",
+        "4": "i6",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/xhr.dart",
+        "2": [
+          "XHR"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/xhr.ng_deps.dart",
+        "4": "i7",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/xhr_impl.dart",
+        "2": [
+          "XHRImpl"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/xhr_impl.ng_deps.dart",
+        "4": "i8",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/events/event_manager.dart",
+        "2": [
+          "EventManager",
+          "DomEventsPlugin",
+          "EVENT_MANAGER_PLUGINS"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/events/event_manager.ng_deps.dart",
+        "4": "i9",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/events/key_events.dart",
+        "2": [
+          "KeyEventsPlugin"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/events/key_events.ng_deps.dart",
+        "4": "i10",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/events/hammer_gestures.dart",
+        "2": [
+          "HammerGesturesPlugin"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/events/hammer_gestures.ng_deps.dart",
+        "4": "i11",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
+        "2": [
+          "ComponentRef",
+          "DynamicComponentLoader"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "4": "i12",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/testability/testability.dart",
+        "2": [
+          "TestabilityRegistry",
+          "Testability"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/testability/testability.ng_deps.dart",
+        "4": "i13",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/render/api.dart",
+        "2": [
+          "Renderer"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/render/api.ng_deps.dart",
+        "4": "i14",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/render/render.dart",
+        "2": [
+          "DomRenderer",
+          "DomRenderer_",
+          "DOCUMENT"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/render/render.ng_deps.dart",
+        "4": "i15",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/shared_styles_host.dart",
+        "2": [
+          "SharedStylesHost",
+          "DomSharedStylesHost"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/shared_styles_host.ng_deps.dart",
+        "4": "i16",
+        "6": true
+      },
+      {
+        "1": "platform_bindings.dart",
+        "2": [
+          "EXCEPTION_PROVIDER"
+        ],
+        "5": false
+      },
+      {
+        "1": "platform_bindings.ng_deps.dart",
+        "4": "i17",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/animate/animation_builder.dart",
+        "2": [
+          "AnimationBuilder"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/animate/animation_builder.ng_deps.dart",
+        "4": "i18",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/animate/browser_details.dart",
+        "2": [
+          "BrowserDetails"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/animate/browser_details.ng_deps.dart",
+        "4": "i19",
+        "6": true
+      },
+      {
+        "1": "profile/wtf_init.dart",
+        "2": [
+          "wtfInit"
+        ],
+        "5": false
+      },
+      {
+        "1": "profile/wtf_init.ng_deps.dart",
+        "4": "i20",
+        "6": true
+      },
+      {
+        "1": "application_ref.dart",
+        "2": [
+          "platformCommon",
+          "PlatformRef",
+          "applicationCommonProviders"
+        ],
+        "5": false
+      },
+      {
+        "1": "application_ref.ng_deps.dart",
+        "4": "i21",
+        "6": true
+      }
+    ],
+    "6": "application_common.dart"
+  }
+}

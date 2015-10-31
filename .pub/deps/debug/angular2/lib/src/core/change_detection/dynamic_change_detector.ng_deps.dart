@@ -1,0 +1,41 @@
+library angular2.src.core.change_detection.dynamic_change_detector.ng_deps.dart;
+
+import 'dynamic_change_detector.dart';
+import 'package:angular2/src/core/reflection/reflection.dart' as _ngRef;
+import 'package:angular2/src/core/facade/lang.dart' show isPresent, isBlank, FunctionWrapper, StringWrapper;
+import 'package:angular2/src/core/facade/exceptions.dart' show BaseException;
+import 'package:angular2/src/core/facade/exceptions.ng_deps.dart' as i1;
+import 'package:angular2/src/core/facade/collection.dart' show ListWrapper, MapWrapper, StringMapWrapper;
+import 'abstract_change_detector.dart' show AbstractChangeDetector;
+import 'abstract_change_detector.ng_deps.dart' as i3;
+import 'event_binding.dart' show EventBinding;
+import 'event_binding.ng_deps.dart' as i4;
+import 'binding_record.dart' show BindingRecord, BindingTarget;
+import 'binding_record.ng_deps.dart' as i5;
+import 'directive_record.dart' show DirectiveRecord, DirectiveIndex;
+import 'directive_record.ng_deps.dart' as i6;
+import 'parser/locals.dart' show Locals;
+import 'parser/locals.ng_deps.dart' as i7;
+import 'interfaces.dart' show ChangeDetectorGenConfig;
+import 'interfaces.ng_deps.dart' as i8;
+import 'change_detection_util.dart' show ChangeDetectionUtil, SimpleChange;
+import 'change_detection_util.ng_deps.dart' as i9;
+import 'constants.dart' show ChangeDetectionStrategy;
+import 'constants.ng_deps.dart' as i10;
+import 'proto_record.dart' show ProtoRecord, RecordType;
+import 'proto_record.ng_deps.dart' as i11;
+export 'dynamic_change_detector.dart';
+var _visited = false;
+void initReflector() {
+if (_visited) return; _visited = true;
+i1.initReflector();
+i3.initReflector();
+i4.initReflector();
+i5.initReflector();
+i6.initReflector();
+i7.initReflector();
+i8.initReflector();
+i9.initReflector();
+i10.initReflector();
+i11.initReflector();
+}

@@ -1,0 +1,17 @@
+name: sky
+version: 0.0.1
+description: The Elos Web App
+author: Nick Landolfi
+environment:
+    sdk: '>=1.12.0 <2.0.0'
+dependencies:
+    browser: '^0.10.0+2'
+    angular2: '^2.0.0-alpha.44'
+    dart_to_js_script_rewriter: ^0.1.0
+    core:
+        git:
+            url: git://github.com/elos/dart-core.git
+            ref: master
+transformers:
+    - angular2:
+        entry_points: web/main.dart

@@ -1,0 +1,47 @@
+library angular2.src.core.linker.view.ng_deps.dart;
+
+import 'view.dart';
+import 'package:angular2/src/core/reflection/reflection.dart' as _ngRef;
+import 'package:angular2/src/core/facade/collection.dart' show ListWrapper, MapWrapper, Map, StringMapWrapper;
+import 'package:angular2/src/core/change_detection/change_detection.dart' show AST, ChangeDetector, ChangeDetectorRef, ChangeDispatcher, DirectiveIndex, DirectiveRecord, BindingTarget, Locals, ProtoChangeDetector;
+import 'package:angular2/src/core/change_detection/change_detection.ng_deps.dart' as i1;
+import 'package:angular2/src/core/change_detection/interfaces.dart' show DebugContext;
+import 'package:angular2/src/core/change_detection/interfaces.ng_deps.dart' as i2;
+import 'element_injector.dart' show ProtoElementInjector, ElementInjector, PreBuiltObjects, DirectiveProvider;
+import 'element_injector.ng_deps.dart' as i3;
+import 'element_binder.dart' show ElementBinder;
+import 'element_binder.ng_deps.dart' as i4;
+import 'package:angular2/src/core/facade/lang.dart' show isPresent, isBlank;
+import 'package:angular2/src/core/facade/exceptions.dart' show BaseException, WrappedException;
+import 'package:angular2/src/core/facade/exceptions.ng_deps.dart' as i6;
+import 'package:angular2/src/core/render/api.dart' as renderApi;
+import 'package:angular2/src/core/render/api.dart' show RenderEventDispatcher;
+import 'package:angular2/src/core/render/api.ng_deps.dart' as i8;
+import 'view_ref.dart' show ViewRef, ProtoViewRef, internalView;
+import 'element_ref.dart' show ElementRef;
+import 'element_ref.ng_deps.dart' as i10;
+import 'package:angular2/src/core/pipes/pipes.dart' show ProtoPipes;
+import 'package:angular2/src/core/pipes/pipes.ng_deps.dart' as i11;
+import 'package:angular2/src/core/render/dom/util.dart' show camelCaseToDashCase;
+import 'package:angular2/src/core/render/dom/util.ng_deps.dart' as i12;
+import 'template_commands.dart' show TemplateCmd;
+import 'template_commands.ng_deps.dart' as i13;
+import 'view_ref.dart' show ViewRef_, ProtoViewRef_;
+import 'view_ref.ng_deps.dart' as i14;
+export 'view.dart';
+export 'package:angular2/src/core/change_detection/interfaces.dart' show DebugContext;
+var _visited = false;
+void initReflector() {
+if (_visited) return; _visited = true;
+i1.initReflector();
+i2.initReflector();
+i3.initReflector();
+i4.initReflector();
+i6.initReflector();
+i8.initReflector();
+i10.initReflector();
+i11.initReflector();
+i12.initReflector();
+i13.initReflector();
+i14.initReflector();
+}

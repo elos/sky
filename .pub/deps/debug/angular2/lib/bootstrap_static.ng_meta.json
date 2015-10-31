@@ -1,0 +1,18 @@
+{
+  "ngDeps": {
+    "1": "angular2.bootstrap_static",
+    "3": [
+      {
+        "1": "src/core/application_static.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "src/core/application_static.dart"
+      }
+    ],
+    "6": "bootstrap_static.dart"
+  }
+}

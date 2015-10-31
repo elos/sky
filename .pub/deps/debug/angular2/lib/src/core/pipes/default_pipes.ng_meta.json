@@ -1,0 +1,121 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.pipes.default_pipes",
+    "3": [
+      {
+        "1": "async_pipe.dart",
+        "2": [
+          "AsyncPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "async_pipe.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "uppercase_pipe.dart",
+        "2": [
+          "UpperCasePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "uppercase_pipe.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "lowercase_pipe.dart",
+        "2": [
+          "LowerCasePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "lowercase_pipe.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      },
+      {
+        "1": "json_pipe.dart",
+        "2": [
+          "JsonPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "json_pipe.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      },
+      {
+        "1": "slice_pipe.dart",
+        "2": [
+          "SlicePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "slice_pipe.ng_deps.dart",
+        "4": "i4",
+        "6": true
+      },
+      {
+        "1": "date_pipe.dart",
+        "2": [
+          "DatePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "date_pipe.ng_deps.dart",
+        "4": "i5",
+        "6": true
+      },
+      {
+        "1": "number_pipe.dart",
+        "2": [
+          "DecimalPipe",
+          "PercentPipe",
+          "CurrencyPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "number_pipe.ng_deps.dart",
+        "4": "i6",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Provider",
+          "OpaqueToken"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "4": "i7",
+        "6": true
+      }
+    ],
+    "6": "default_pipes.dart"
+  },
+  "DEFAULT_PIPES_LIST": {
+    "kind": "alias",
+    "value": [
+      "AsyncPipe",
+      "UpperCasePipe",
+      "LowerCasePipe",
+      "JsonPipe",
+      "SlicePipe",
+      "DecimalPipe",
+      "PercentPipe",
+      "CurrencyPipe",
+      "DatePipe"
+    ]
+  }
+}

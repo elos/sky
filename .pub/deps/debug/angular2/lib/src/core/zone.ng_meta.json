@@ -1,0 +1,24 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.zone",
+    "3": [
+      {
+        "1": "zone/ng_zone.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "zone/ng_zone.dart",
+        "2": [
+          "NgZone",
+          "ZeroArgFunction",
+          "ErrorHandlingFn",
+          "NgZoneError"
+        ]
+      }
+    ],
+    "6": "zone.dart"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.tools.common_tools",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "LifeCycle"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
+        "2": [
+          "ComponentRef",
+          "ComponentRef_"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "isPresent",
+          "NumberWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/browser.dart",
+        "2": [
+          "performance",
+          "window"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.ng_deps.dart",
+        "4": "i4",
+        "6": true
+      }
+    ],
+    "6": "common_tools.dart"
+  }
+}

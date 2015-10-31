@@ -1,0 +1,47 @@
+library angular2.src.core.change_detection.abstract_change_detector.ng_deps.dart;
+
+import 'abstract_change_detector.dart';
+import 'package:angular2/src/core/reflection/reflection.dart' as _ngRef;
+import 'package:angular2/src/core/facade/lang.dart' show isPresent, isBlank, StringWrapper;
+import 'package:angular2/src/core/facade/exceptions.dart' show BaseException;
+import 'package:angular2/src/core/facade/exceptions.ng_deps.dart' as i1;
+import 'package:angular2/src/core/facade/collection.dart' show ListWrapper;
+import 'change_detection_util.dart' show ChangeDetectionUtil;
+import 'change_detection_util.ng_deps.dart' as i3;
+import 'change_detector_ref.dart' show ChangeDetectorRef, ChangeDetectorRef_;
+import 'change_detector_ref.ng_deps.dart' as i4;
+import 'directive_record.dart' show DirectiveIndex;
+import 'directive_record.ng_deps.dart' as i5;
+import 'interfaces.dart' show ChangeDetector, ChangeDispatcher;
+import 'interfaces.ng_deps.dart' as i6;
+import 'pipes.dart' show Pipes;
+import 'pipes.ng_deps.dart' as i7;
+import 'exceptions.dart' show ChangeDetectionError, ExpressionChangedAfterItHasBeenCheckedException, DehydratedException;
+import 'exceptions.ng_deps.dart' as i8;
+import 'binding_record.dart' show BindingTarget;
+import 'binding_record.ng_deps.dart' as i9;
+import 'parser/locals.dart' show Locals;
+import 'parser/locals.ng_deps.dart' as i10;
+import 'constants.dart' show ChangeDetectionStrategy;
+import 'constants.ng_deps.dart' as i11;
+import '../profile/profile.dart' show wtfCreateScope, wtfLeave, WtfScopeFn;
+import '../profile/profile.ng_deps.dart' as i12;
+import 'observable_facade.dart' show isObservable;
+import 'observable_facade.ng_deps.dart' as i13;
+export 'abstract_change_detector.dart';
+var _visited = false;
+void initReflector() {
+if (_visited) return; _visited = true;
+i1.initReflector();
+i3.initReflector();
+i4.initReflector();
+i5.initReflector();
+i6.initReflector();
+i7.initReflector();
+i8.initReflector();
+i9.initReflector();
+i10.initReflector();
+i11.initReflector();
+i12.initReflector();
+i13.initReflector();
+}

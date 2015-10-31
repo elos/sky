@@ -1,0 +1,52 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.forms.model",
+    "3": [
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "StringWrapper",
+          "isPresent",
+          "isBlank",
+          "normalizeBool"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.dart",
+        "2": [
+          "Stream",
+          "EventEmitter",
+          "ObservableWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/collection.dart",
+        "2": [
+          "StringMapWrapper",
+          "ListWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "validators.dart",
+        "2": [
+          "Validators"
+        ],
+        "5": false
+      },
+      {
+        "1": "validators.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      }
+    ],
+    "6": "model.dart"
+  }
+}

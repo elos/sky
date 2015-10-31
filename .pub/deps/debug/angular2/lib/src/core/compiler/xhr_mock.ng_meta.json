@@ -1,0 +1,64 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.compiler.xhr_mock",
+    "3": [
+      {
+        "1": "package:angular2/src/core/compiler/xhr.dart",
+        "2": [
+          "XHR"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/xhr.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/collection.dart",
+        "2": [
+          "ListWrapper",
+          "Map",
+          "MapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "isBlank",
+          "isPresent"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.dart",
+        "2": [
+          "BaseException",
+          "WrappedException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.dart",
+        "2": [
+          "PromiseCompleter",
+          "PromiseWrapper",
+          "Future"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.ng_deps.dart",
+        "4": "i4",
+        "6": true
+      }
+    ],
+    "6": "xhr_mock.dart"
+  }
+}

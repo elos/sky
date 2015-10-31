@@ -1,0 +1,14 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.lifecycle",
+    "4": [
+      {
+        "1": "life_cycle/life_cycle.dart",
+        "2": [
+          "LifeCycle"
+        ]
+      }
+    ],
+    "6": "lifecycle.dart"
+  }
+}

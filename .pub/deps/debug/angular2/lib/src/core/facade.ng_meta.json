@@ -1,0 +1,46 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.facade",
+    "3": [
+      {
+        "1": "facade/async.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "facade/exceptions.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "facade/lang.dart",
+        "2": [
+          "ConcreteType",
+          "Type"
+        ]
+      },
+      {
+        "1": "facade/async.dart",
+        "2": [
+          "Stream",
+          "EventEmitter"
+        ]
+      },
+      {
+        "1": "facade/collection.dart",
+        "2": [
+          "Predicate"
+        ]
+      },
+      {
+        "1": "facade/exceptions.dart",
+        "2": [
+          "WrappedException"
+        ]
+      }
+    ],
+    "6": "facade.dart"
+  }
+}
