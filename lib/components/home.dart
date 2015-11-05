@@ -4,4 +4,9 @@ part of sky.components;
 @View(template: '''
     <div> <h2> Welcome Home </h2> </div>
 ''')
-class HomeComponent{}
+class HomeComponent implements OnActivate {
+
+  dynamic onActivate(ComponentInstruction nextComponent, ComponentInstruction prevComponent) {
+    return new Future.value(true);
+  }
+}
