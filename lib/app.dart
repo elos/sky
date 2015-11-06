@@ -11,7 +11,8 @@ part "routes.dart";
 @RouteConfig(Routes)
 @View(
     templateUrl: 'app.html',
-    directives: const [ROUTER_DIRECTIVES]
+    directives: const [ROUTER_DIRECTIVES],
+    styleUrls: const ['app.css']
 )
 class App {
   App();

@@ -1,9 +1,4 @@
 library sky.components;
 
-import 'dart:async';
-
-import 'package:angular2/angular2.dart' show Component, View;
-import 'package:angular2/router.dart' show OnActivate, ComponentInstruction;
-
-part "login.dart";
-part "home.dart";
+export "package:sky/components/login/login.dart" show LoginComponent;
+export "package:sky/components/home/home.dart" show HomeComponent;

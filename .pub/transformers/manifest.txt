@@ -1,2 +1,2 @@
 1.12.2
-angular2,dart_to_js_script_rewriter
+angular2,dart_to_js_script_rewriter,scissors
