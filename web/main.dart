@@ -3,6 +3,7 @@ import "dart:html";
 
 // App Imports
 import 'package:sky/app.dart' show App;
+import 'package:sky/services/services.dart' show SessionService;
 
 // Angular Imports
 import 'package:angular2/angular2.dart' show provide;
@@ -12,6 +13,6 @@ import 'package:angular2/router.dart' show APP_BASE_HREF, ROUTER_PROVIDERS, Loca
 main() {
   bootstrap(App,
       [ROUTER_PROVIDERS, provide(APP_BASE_HREF, useValue: window.location.pathname),
-      provide(LocationStrategy, useClass: HashLocationStrategy)]
+      provide(LocationStrategy, useClass: HashLocationStrategy), SessionService]
   );
 }
