@@ -1,0 +1,39 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.forms.directives.abstract_control_directive",
+    "3": [
+      {
+        "1": "../model.dart",
+        "2": [
+          "AbstractControl"
+        ],
+        "5": false
+      },
+      {
+        "1": "../model.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "isPresent"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.dart",
+        "2": [
+          "unimplemented"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      }
+    ],
+    "6": "abstract_control_directive.dart"
+  }
+}

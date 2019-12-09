@@ -2,16 +2,20 @@ library sky.components.login;
 
 import 'package:angular2/angular2.dart'
     show
-        Component,
-        View,
-        FORM_DIRECTIVES,
         CORE_DIRECTIVES,
+        Component,
         Control,
         ControlGroup,
-        Validators;
+        FORM_DIRECTIVES,
+        Validators,
+        View;
 
 import 'package:angular2/router.dart' as r
-    show OnActivate, ComponentInstruction, Location, Router;
+    show
+        ComponentInstruction,
+        Location,
+        OnActivate,
+        Router;
 
 import 'package:sky/services/services.dart' as services show SessionService;
 

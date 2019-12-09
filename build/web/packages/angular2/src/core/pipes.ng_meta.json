@@ -1,0 +1,116 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.pipes",
+    "3": [
+      {
+        "1": "pipes/async_pipe.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "pipes/date_pipe.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "pipes/default_pipes.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      },
+      {
+        "1": "pipes/json_pipe.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      },
+      {
+        "1": "pipes/slice_pipe.ng_deps.dart",
+        "4": "i4",
+        "6": true
+      },
+      {
+        "1": "pipes/lowercase_pipe.ng_deps.dart",
+        "4": "i5",
+        "6": true
+      },
+      {
+        "1": "pipes/number_pipe.ng_deps.dart",
+        "4": "i6",
+        "6": true
+      },
+      {
+        "1": "pipes/uppercase_pipe.ng_deps.dart",
+        "4": "i7",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "pipes/async_pipe.dart",
+        "2": [
+          "AsyncPipe"
+        ]
+      },
+      {
+        "1": "pipes/date_pipe.dart",
+        "2": [
+          "DatePipe"
+        ]
+      },
+      {
+        "1": "pipes/default_pipes.dart",
+        "2": [
+          "DEFAULT_PIPES",
+          "DEFAULT_PIPES_TOKEN"
+        ]
+      },
+      {
+        "1": "pipes/json_pipe.dart",
+        "2": [
+          "JsonPipe"
+        ]
+      },
+      {
+        "1": "pipes/slice_pipe.dart",
+        "2": [
+          "SlicePipe"
+        ]
+      },
+      {
+        "1": "pipes/lowercase_pipe.dart",
+        "2": [
+          "LowerCasePipe"
+        ]
+      },
+      {
+        "1": "pipes/number_pipe.dart",
+        "2": [
+          "NumberPipe",
+          "DecimalPipe",
+          "PercentPipe",
+          "CurrencyPipe"
+        ]
+      },
+      {
+        "1": "pipes/uppercase_pipe.dart",
+        "2": [
+          "UpperCasePipe"
+        ]
+      }
+    ],
+    "6": "pipes.dart"
+  },
+  "DEFAULT_PIPES_LIST": {
+    "kind": "alias",
+    "value": [
+      "AsyncPipe",
+      "UpperCasePipe",
+      "LowerCasePipe",
+      "JsonPipe",
+      "SlicePipe",
+      "DecimalPipe",
+      "PercentPipe",
+      "CurrencyPipe",
+      "DatePipe"
+    ]
+  }
+}

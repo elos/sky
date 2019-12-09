@@ -1,0 +1,28 @@
+<html><head></head><body>Hello Records!
+
+Select a Kind:
+<ul>
+    <li *ng-for="#kind of kinds" (click)="selectKind(kind)">
+        {{kind}}
+    </li>
+</ul>
+
+<div ng-if="currentKind != null">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Filler
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ng-for="#record of records()">
+                <td *ng-for="#attr of record">
+                    {{record[attr]}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body></html>

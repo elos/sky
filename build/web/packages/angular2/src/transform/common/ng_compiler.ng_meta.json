@@ -1,0 +1,136 @@
+{
+  "ngDeps": {
+    "1": "angular2.transform.template_compiler.ng_compiler",
+    "3": [
+      {
+        "1": "package:angular2/src/core/compiler/command_compiler.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/command_compiler.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/html_parser.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/html_parser.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/style_compiler.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/style_compiler.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/template_compiler.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/template_compiler.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/template_normalizer.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/template_normalizer.ng_deps.dart",
+        "4": "i4",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/template_parser.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/template_parser.ng_deps.dart",
+        "4": "i5",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/parser/lexer.dart",
+        "4": "ng",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/parser/lexer.ng_deps.dart",
+        "4": "i6",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/parser/parser.dart",
+        "4": "ng",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/parser/parser.ng_deps.dart",
+        "4": "i7",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/schema/dom_element_schema_registry.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/schema/dom_element_schema_registry.ng_deps.dart",
+        "4": "i8",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/transform/common/asset_reader.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/asset_reader.ng_deps.dart",
+        "4": "i9",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/interfaces.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/interfaces.ng_deps.dart",
+        "4": "i10",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/compiler/change_detector_compiler.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/change_detector_compiler.ng_deps.dart",
+        "4": "i11",
+        "6": true
+      },
+      {
+        "1": "xhr_impl.dart",
+        "5": false
+      },
+      {
+        "1": "xhr_impl.ng_deps.dart",
+        "4": "i12",
+        "6": true
+      },
+      {
+        "1": "url_resolver.dart",
+        "5": false
+      },
+      {
+        "1": "url_resolver.ng_deps.dart",
+        "4": "i13",
+        "6": true
+      }
+    ],
+    "6": "ng_compiler.dart"
+  }
+}

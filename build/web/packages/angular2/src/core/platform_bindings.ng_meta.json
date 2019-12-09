@@ -1,0 +1,35 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.platform_bindings",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      }
+    ],
+    "6": "platform_bindings.dart"
+  }
+}

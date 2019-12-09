@@ -1,0 +1,122 @@
+{
+  "ngDeps": {
+    "1": "sky.components.records",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Component",
+          "NgFor",
+          "View"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:sky/services/services.dart",
+        "4": "services",
+        "5": false
+      },
+      {
+        "1": "package:sky/services/services.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      },
+      {
+        "1": "package:data/data.dart",
+        "4": "data",
+        "5": false
+      },
+      {
+        "1": "package:core/models/models.dart",
+        "2": [
+          "EventKind"
+        ],
+        "4": "models",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "RecordsComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'records-component'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "View",
+            "3": [
+              {
+                "1": "directives",
+                "2": "const [NgFor]"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'records.html'"
+              }
+            ],
+            "4": true,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "NgFor"
+          }
+        ]
+      }
+    ],
+    "6": "records.dart"
+  },
+  "RecordsComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "records-component",
+      "exportAs": null,
+      "type": {
+        "name": "RecordsComponent",
+        "moduleUrl": "asset:sky/lib/components/records/records.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "Hello Records!\n\nSelect a Kind:\n<ul>\n    <li *ng-for=\"#kind of kinds\" (click)=\"selectKind(kind)\">\n        {{kind}}\n    </li>\n</ul>\n\n<div ng-if=\"currentKind != null\">\n    <table>\n        <thead>\n            <tr>\n                <th>\n                    Filler\n                </th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr *ng-for=\"#record of records()\">\n                <td *ng-for=\"#attr of record\">\n                    {{record[attr]}}\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n",
+        "templateUrl": "asset:sky/lib/components/records/records.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ngDeps": {
+    "1": "angular2.test_lib",
+    "3": [
+      {
+        "1": "testing_internal.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "testing_internal.dart"
+      }
+    ],
+    "6": "test_lib.dart"
+  },
+  "_testBindings": {
+    "kind": "alias",
+    "value": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.forms.directives.ng_control",
+    "3": [
+      {
+        "1": "control_value_accessor.dart",
+        "2": [
+          "ControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
+        "1": "control_value_accessor.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "abstract_control_directive.dart",
+        "2": [
+          "AbstractControlDirective"
+        ],
+        "5": false
+      },
+      {
+        "1": "abstract_control_directive.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.dart",
+        "2": [
+          "unimplemented"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      }
+    ],
+    "6": "ng_control.dart"
+  }
+}

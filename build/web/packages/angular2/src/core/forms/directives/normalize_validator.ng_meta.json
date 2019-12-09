@@ -1,0 +1,20 @@
+{
+  "ngDeps": {
+    "1": "angular2.core.forms.normalize_validators",
+    "3": [
+      {
+        "1": "package:angular2/src/core/forms/directives/validators.dart",
+        "2": [
+          "Validator"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/forms/directives/validators.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      }
+    ],
+    "6": "normalize_validator.dart"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.compiler.template_preparser",
+    "3": [
+      {
+        "1": "html_ast.dart",
+        "2": [
+          "HtmlElementAst"
+        ],
+        "5": false
+      },
+      {
+        "1": "html_ast.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "isBlank",
+          "isPresent"
+        ],
+        "5": false
+      }
+    ],
+    "6": "template_preparser.dart"
+  }
+}

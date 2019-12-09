@@ -4,7 +4,7 @@ packages:
   analyzer:
     description: analyzer
     source: hosted
-    version: "0.26.1+17"
+    version: "0.26.2+1"
   angular2:
     description: angular2
     source: hosted
@@ -44,7 +44,7 @@ packages:
   core:
     description:
       ref: master
-      resolved-ref: fda0c46ad0a47c637c452e171866b83bffa4fca7
+      resolved-ref: "3c66b8168ec3d81b14e2b965a0fffdbed337ed50"
       url: "git://github.com/elos/dart-core.git"
     source: git
     version: "0.0.0"
@@ -67,7 +67,7 @@ packages:
   data:
     description:
       ref: master
-      resolved-ref: "88d3d5bfcf4d47ee3129c6683013ffefe59adda1"
+      resolved-ref: "4ce0fe39ff67598fb4502747716cc1a702e3f858"
       url: "git://github.com/elos/dart-data.git"
     source: git
     version: "0.0.0"
@@ -146,7 +146,7 @@ packages:
   stack_trace:
     description: stack_trace
     source: hosted
-    version: "1.4.2"
+    version: "1.5.0"
   string_scanner:
     description: string_scanner
     source: hosted

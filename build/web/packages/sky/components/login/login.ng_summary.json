@@ -1,0 +1,139 @@
+{
+  "ngDeps": {
+    "1": "sky.components.login",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "CORE_DIRECTIVES",
+          "Component",
+          "Control",
+          "ControlGroup",
+          "FORM_DIRECTIVES",
+          "Validators",
+          "View"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "2": [
+          "ComponentInstruction",
+          "Location",
+          "OnActivate",
+          "Router"
+        ],
+        "4": "r",
+        "5": false
+      },
+      {
+        "1": "package:sky/services/services.dart",
+        "2": [
+          "SessionService"
+        ],
+        "4": "services",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "LoginComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'login-component'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "View",
+            "3": [
+              {
+                "1": "templateUrl",
+                "2": "'login.html'"
+              },
+              {
+                "1": "styleUrls",
+                "2": "const ['login.css']"
+              },
+              {
+                "1": "directives",
+                "2": "const [FORM_DIRECTIVES, CORE_DIRECTIVES]"
+              }
+            ],
+            "4": true,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "services.SessionService",
+            "4": "sessionService"
+          },
+          {
+            "1": "r.Location",
+            "4": "location"
+          },
+          {
+            "1": "r.Router",
+            "4": "router"
+          }
+        ],
+        "6": [
+          "r.OnActivate"
+        ],
+        "8": [
+          {
+            "2": "FORM_DIRECTIVES"
+          },
+          {
+            "2": "CORE_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "login.dart"
+  },
+  "LoginComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "login-component",
+      "exportAs": null,
+      "type": {
+        "name": "LoginComponent",
+        "moduleUrl": "asset:sky/lib/components/login/login.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h3> Authentication </h3>\n<hr/>\n\n<form [ng-form-model]=\"formGroup\">\n        <label> Public Credential: </label>\n        <input ng-control=\"public\" type=\"text\">\n        <br/>\n        <label> Private Credential:\n        </label> <input ng-control=\"private\" type=\"text\">\n        <br/>\n        <button *ng-if=\"formGroup.valid\" type=\"button\" (click)=\"submit()\">Submit</button>\n</form>\n",
+        "templateUrl": "asset:sky/lib/components/login/login.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:sky/lib/components/login/login.css"
+        ],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

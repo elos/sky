@@ -1,0 +1,16 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.util",
+    "4": [
+      {
+        "1": "util/decorators.dart",
+        "2": [
+          "Class",
+          "ClassDefinition",
+          "TypeDecorator"
+        ]
+      }
+    ],
+    "6": "util.dart"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.render.view_factory",
+    "3": [
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "isBlank",
+          "isPresent"
+        ],
+        "5": false
+      },
+      {
+        "1": "api.dart",
+        "2": [
+          "RenderEventDispatcher",
+          "RenderTemplateCmd",
+          "RenderCommandVisitor",
+          "RenderBeginElementCmd",
+          "RenderBeginComponentCmd",
+          "RenderNgContentCmd",
+          "RenderTextCmd",
+          "RenderEmbeddedTemplateCmd"
+        ],
+        "5": false
+      },
+      {
+        "1": "api.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "view.dart",
+        "2": [
+          "DefaultRenderView",
+          "DefaultRenderFragmentRef"
+        ],
+        "5": false
+      },
+      {
+        "1": "view.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      }
+    ],
+    "6": "view_factory.dart"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "ngDeps": {
+    "1": "sky.components.home",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Component",
+          "View"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "2": [
+          "OnActivate",
+          "ComponentInstruction"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HomeComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'home-component'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "View",
+            "3": [
+              {
+                "1": "template",
+                "2": "'''\n    <div> <h2> Welcome Home </h2> </div>\n'''"
+              }
+            ],
+            "4": true,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          }
+        ],
+        "6": [
+          "OnActivate"
+        ]
+      }
+    ],
+    "6": "home.dart"
+  },
+  "HomeComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "home-component",
+      "exportAs": null,
+      "type": {
+        "name": "HomeComponent",
+        "moduleUrl": "asset:sky/lib/components/home/home.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "    <div> <h2> Welcome Home </h2> </div>\n",
+        "templateUrl": "asset:sky/lib/components/home/home.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "ngDeps": {
+    "1": "sky.components",
+    "3": [
+      {
+        "1": "package:sky/components/login/login.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "package:sky/components/home/home.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "package:sky/components/records/records.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "package:sky/components/login/login.dart",
+        "2": [
+          "LoginComponent"
+        ]
+      },
+      {
+        "1": "package:sky/components/home/home.dart",
+        "2": [
+          "HomeComponent"
+        ]
+      },
+      {
+        "1": "package:sky/components/records/records.dart",
+        "2": [
+          "RecordsComponent"
+        ]
+      }
+    ],
+    "6": "components.dart"
+  },
+  "HomeComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "home-component",
+      "exportAs": null,
+      "type": {
+        "name": "HomeComponent",
+        "moduleUrl": "asset:sky/lib/components/home/home.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "    <div> <h2> Welcome Home </h2> </div>\n",
+        "templateUrl": "asset:sky/lib/components/home/home.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  },
+  "LoginComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "login-component",
+      "exportAs": null,
+      "type": {
+        "name": "LoginComponent",
+        "moduleUrl": "asset:sky/lib/components/login/login.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h3> Authentication </h3>\n<hr/>\n\n<form [ng-form-model]=\"formGroup\">\n        <label> Public Credential: </label>\n        <input ng-control=\"public\" type=\"text\">\n        <br/>\n        <label> Private Credential:\n        </label> <input ng-control=\"private\" type=\"text\">\n        <br/>\n        <button *ng-if=\"formGroup.valid\" type=\"button\" (click)=\"submit()\">Submit</button>\n</form>\n",
+        "templateUrl": "asset:sky/lib/components/login/login.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:sky/lib/components/login/login.css"
+        ],
+        "ngContentSelectors": []
+      }
+    }
+  },
+  "RecordsComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "records-component",
+      "exportAs": null,
+      "type": {
+        "name": "RecordsComponent",
+        "moduleUrl": "asset:sky/lib/components/records/records.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "Hello Records!\n\nSelect a Kind:\n<ul>\n    <li *ng-for=\"#kind of kinds\" (click)=\"selectKind(kind)\">\n        {{kind}}\n    </li>\n</ul>\n\n<div ng-if=\"currentKind != null\">\n    <table>\n        <thead>\n            <tr>\n                <th>\n                    Filler\n                </th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr *ng-for=\"#record of records()\">\n                <td *ng-for=\"#attr of record\">\n                    {{record[attr]}}\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n",
+        "templateUrl": "asset:sky/lib/components/records/records.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

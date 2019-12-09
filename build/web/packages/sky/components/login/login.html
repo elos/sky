@@ -1,0 +1,13 @@
+<html><head></head><body><h3> Authentication </h3>
+<hr>
+
+<form [ng-form-model]="formGroup">
+        <label> Public Credential: </label>
+        <input ng-control="public" type="text">
+        <br>
+        <label> Private Credential:
+        </label> <input ng-control="private" type="text">
+        <br>
+        <button *ng-if="formGroup.valid" type="button" (click)="submit()">Submit</button>
+</form>
+</body></html>

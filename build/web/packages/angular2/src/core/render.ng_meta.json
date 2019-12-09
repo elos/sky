@@ -1,0 +1,36 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.render",
+    "3": [
+      {
+        "1": "render/render.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "render/render.dart",
+        "2": [
+          "RenderEventDispatcher",
+          "Renderer",
+          "RenderElementRef",
+          "RenderViewRef",
+          "RenderProtoViewRef",
+          "RenderFragmentRef",
+          "RenderViewWithFragments",
+          "DOCUMENT",
+          "RenderTemplateCmd",
+          "RenderCommandVisitor",
+          "RenderTextCmd",
+          "RenderNgContentCmd",
+          "RenderBeginElementCmd",
+          "RenderBeginComponentCmd",
+          "RenderEmbeddedTemplateCmd",
+          "RenderBeginCmd"
+        ]
+      }
+    ],
+    "6": "render.dart"
+  }
+}

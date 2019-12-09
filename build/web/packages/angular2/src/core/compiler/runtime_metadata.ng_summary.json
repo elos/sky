@@ -1,0 +1,135 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.compiler.runtime_metadata",
+    "3": [
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "resolveForwardRef"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "Type",
+          "isBlank",
+          "isPresent",
+          "isArray",
+          "stringify",
+          "RegExpWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/collection.dart",
+        "2": [
+          "MapWrapper",
+          "StringMapWrapper",
+          "ListWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "directive_metadata.dart",
+        "4": "cpl",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata/directives.dart",
+        "4": "md",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/directive_resolver.dart",
+        "2": [
+          "DirectiveResolver"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/view_resolver.dart",
+        "2": [
+          "ViewResolver"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata/view.dart",
+        "2": [
+          "ViewMetadata"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/directive_lifecycle_reflector.dart",
+        "2": [
+          "hasLifecycleHook"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/interfaces.dart",
+        "2": [
+          "LifecycleHooks",
+          "LIFECYCLE_HOOKS_VALUES"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "reflector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "util.dart",
+        "2": [
+          "MODULE_SUFFIX"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "RuntimeMetadataResolver",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "DirectiveResolver",
+            "4": "_directiveResolver"
+          },
+          {
+            "1": "ViewResolver",
+            "4": "_viewResolver"
+          }
+        ]
+      }
+    ],
+    "6": "runtime_metadata.dart"
+  }
+}

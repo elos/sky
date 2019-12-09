@@ -1,0 +1,31 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.compiler.style_url_resolver",
+    "3": [
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "RegExp",
+          "RegExpWrapper",
+          "StringWrapper",
+          "isPresent",
+          "isBlank"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/url_resolver.dart",
+        "2": [
+          "UrlResolver"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/compiler/url_resolver.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      }
+    ],
+    "6": "style_url_resolver.dart"
+  }
+}

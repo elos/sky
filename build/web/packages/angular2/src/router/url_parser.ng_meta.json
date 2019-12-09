@@ -1,0 +1,38 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.url_parser",
+    "3": [
+      {
+        "1": "package:angular2/src/core/facade/collection.dart",
+        "2": [
+          "StringMapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/lang.dart",
+        "2": [
+          "isPresent",
+          "isBlank",
+          "StringWrapper",
+          "RegExpWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.dart",
+        "2": [
+          "BaseException",
+          "WrappedException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/exceptions.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      }
+    ],
+    "6": "url_parser.dart"
+  }
+}

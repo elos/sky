@@ -1,0 +1,26 @@
+{
+  "ngDeps": {
+    "1": "sky.components",
+    "4": [
+      {
+        "1": "package:sky/components/login/login.dart",
+        "2": [
+          "LoginComponent"
+        ]
+      },
+      {
+        "1": "package:sky/components/home/home.dart",
+        "2": [
+          "HomeComponent"
+        ]
+      },
+      {
+        "1": "package:sky/components/records/records.dart",
+        "2": [
+          "RecordsComponent"
+        ]
+      }
+    ],
+    "6": "components.dart"
+  }
+}

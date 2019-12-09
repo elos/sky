@@ -1,0 +1,42 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.render.render",
+    "3": [
+      {
+        "1": "dom/shared_styles_host.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      },
+      {
+        "1": "dom/dom_renderer.ng_deps.dart",
+        "4": "i1",
+        "6": true
+      },
+      {
+        "1": "dom/dom_tokens.ng_deps.dart",
+        "4": "i2",
+        "6": true
+      },
+      {
+        "1": "api.ng_deps.dart",
+        "4": "i3",
+        "6": true
+      }
+    ],
+    "4": [
+      {
+        "1": "dom/shared_styles_host.dart"
+      },
+      {
+        "1": "dom/dom_renderer.dart"
+      },
+      {
+        "1": "dom/dom_tokens.dart"
+      },
+      {
+        "1": "api.dart"
+      }
+    ],
+    "6": "render.dart"
+  }
+}

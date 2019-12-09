@@ -1,0 +1,20 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.compiler.xhr",
+    "3": [
+      {
+        "1": "package:angular2/src/core/facade/async.dart",
+        "2": [
+          "Future"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/facade/async.ng_deps.dart",
+        "4": "i0",
+        "6": true
+      }
+    ],
+    "6": "xhr.dart"
+  }
+}

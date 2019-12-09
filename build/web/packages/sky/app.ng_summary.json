@@ -1,0 +1,125 @@
+{
+  "ngDeps": {
+    "1": "sky.app",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Component",
+          "View"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "2": [
+          "ROUTER_DIRECTIVES",
+          "RouteConfig",
+          "Route",
+          "Redirect"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:sky/components/components.dart",
+        "2": [
+          "LoginComponent",
+          "HomeComponent",
+          "RecordsComponent"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "App",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'app'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "RouteConfig",
+            "2": [
+              "Routes"
+            ],
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          },
+          {
+            "1": "View",
+            "3": [
+              {
+                "1": "templateUrl",
+                "2": "'app.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [ROUTER_DIRECTIVES]"
+              },
+              {
+                "1": "styleUrls",
+                "2": "const ['app.css']"
+              }
+            ],
+            "4": true,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "app.dart"
+  },
+  "App": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "app",
+      "exportAs": null,
+      "type": {
+        "name": "App",
+        "moduleUrl": "asset:sky/lib/app.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h1 class='elos'> elos sky </h1>\n<router-outlet></router-outlet>\n",
+        "templateUrl": "asset:sky/lib/app.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:sky/lib/app.css"
+        ],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "ngDeps": {
+    "1": "sky.services",
+    "3": [
+      {
+        "1": "dart:async",
+        "2": [
+          "Future"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:core/api/api.dart",
+        "2": [
+          "Host"
+        ],
+        "4": "api",
+        "5": false
+      },
+      {
+        "1": "package:data/data.dart",
+        "2": [
+          "RestDB"
+        ],
+        "4": "data",
+        "5": false
+      },
+      {
+        "1": "package:core/models/models.dart",
+        "2": [
+          "Session"
+        ],
+        "4": "models",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Injectable"
+        ],
+        "4": "ng",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SessionService",
+        "4": [
+          {
+            "1": "ng.Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      },
+      {
+        "1": "HostService",
+        "4": [
+          {
+            "1": "ng.Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "String",
+            "4": "host"
+          },
+          {
+            "1": "String",
+            "4": "accessToken"
+          }
+        ]
+      },
+      {
+        "1": "DBService",
+        "4": [
+          {
+            "1": "ng.Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "api.Host",
+            "4": "h"
+          }
+        ]
+      }
+    ],
+    "6": "services.dart"
+  }
+}
